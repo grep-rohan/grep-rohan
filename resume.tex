@@ -1,0 +1,214 @@
+%-------------------------
+% Resume in Latex
+% Author: Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Rohan Sharma} \\ \vspace{1pt}
+    \small 956-078-4409 $|$ \href{mailto:x@x.com}{\underline{irohansharma95@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/rohansharma95/}{\underline{linkedin.com/in/rohansharma95}} $|$
+    \href{https://github.com/grep-rohan}{\underline{github.com/grep-rohan}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {BML Munjal University}{Gurgaon, HR}
+      {Bachelor of Technology in Computer Science}{Sep 2014 -- Aug 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer II}{Nov 2022 -- Present}
+      {Statiq}{Gurgaon, HR}
+      \resumeItemListStart
+       \resumeItem{Engineered a robust backend infrastructure for the \emph{Charging Station Management System (CSMS)} that improved data retrieval speed by 40\%, enhancing the overall user experience for over 500 active users monthly.}
+       \resumeItem{Designed and implemented a caching strategy using Redis that improved data retrieval times by 40\%, enhancing the overall performance of the \emph{CSMS} for user interactions.}
+        \resumeItem{Contributed to building a \emph{Charger Logistics Management System}, enhancing real-time station tracking and installation processes for over 50 stations.}
+        \resumeItem{Aligned frontend and backend development processes to create a unified user experience, ultimately enhancing workflow efficiency.}
+        \resumeItem{Conducted a thorough analysis of existing database structures and implemented best practices for data management; established a comprehensive documentation framework for future reference, reducing onboarding time for new hires by 30%.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Software Engineer}{Aug 2020 -- Jul 2021}
+      {Ivy}{Hyderabad, TS}
+      \resumeItemListStart
+        \resumeItem{Engineered robust backend systems for a \emph{Bingo} game using Python and MySQL, resulting in a seamless real-time gameplay experience via WebSocket that enhanced user engagement for over 5,000 active players weekly.}
+        \resumeItem{Created tools for back-office operations, improving game monitoring and management efficiency.}
+        \resumeItem{Focused on code quality through reviews and testing, enhancing system reliability.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Developer}{Jun 2018 -- Jul 2020}
+      {ZestIOT - IoT/AI powered aviation platform}{Hyderabad, TS}
+      \resumeItemListStart
+        \resumeItem{Worked on the backend for an airport turnaround SaaS platform, transforming IoT data into useful insights for users.}
+        \resumeItem{Developed a real-time system to calculate Off-Block Time for planes, streamlining airport operations.}
+        \resumeItem{Contributed to a computer vision project to analyze airport retail footfall, improving operational decision-making.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+        {\textbf{Timetable Management System} $|$ \emph{Node.js, Express.js, HTML/CSS}}{Sep 2017 -- Dec 2017}
+        \resumeItemListStart
+            \resumeItem{Created a system for scheduling and managing academic timetables.}
+            \resumeItem{Designed an intuitive interface for easy creation and modification of timetables for institutions.}
+            \resumeItem{Integrated database management for storing course schedules and room allocations.}
+            \resumeItem{GitHub: \href{https://github.com/grep-rohan/Timetable-Management-System}{\underline{github.com/grep-rohan/Timetable-Management-System}}}
+        \resumeItemListEnd
+    
+      \resumeProjectHeading
+          {\textbf{Gender Recognition by Voice} $|$ \emph{Python, Scikit-Learn, R}}{Apr 2017 -- May 2017}
+          \resumeItemListStart
+            \resumeItem{Trained and tested multiple machine learning models to predict gender using voice samples.}
+            \resumeItem{Achieved 97\% accuracy using a Multi-Layer Perceptron (MLP) and compared the performance of different models.}
+            \resumeItem{Focused on optimizing model performance through feature extraction and preprocessing.}
+            \resumeItem{GitHub: \href{https://github.com/grep-rohan/GenderRecognitionByVoice}{\underline{github.com/grep-rohan/GenderRecognitionByVoice}}}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Go, C/C++, Java, JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: FastAPI, Django, Flask, Node.js, Express.js } \\
+     \textbf{Databases}{: MySQL, MongoDB, Redis, InfluxDB} \\
+     \textbf{Middlewares}{: REST, AMQP, WebSocket, RPC} \\
+     \textbf{Developer Tools}{: Git, Linux, AWS, CI/CD, VS Code}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
