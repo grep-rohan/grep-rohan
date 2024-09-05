@@ -1,16 +1,13 @@
-## Hi there 👋
+# Hi there, I'm Rohan 👋
 
-<!--
-**i-Rohan/i-Rohan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+- 🚀 **Software Engineer** with 5+ years of backend development experience
+- 🎓 B.Tech in Computer Science (2018) from BML Munjal University | Planning to pursue M.Tech after switching jobs
+- 🛠️ **Skills:** Python, FastAPI, Flask, Django REST, MySQL, MongoDB, Redis, AWS
+- 🌍 Seeking new opportunities | Available from October 2024
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Let's Connect
+
+- 💻 [LinkedIn](https://linkedin.com/in/rohansharma95)  
+- 📧 Reach me at: irohansharma95@gmail.com
