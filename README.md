@@ -11,5 +11,6 @@
 
 ## Let's Connect
 
+- 📄 [Resume](https://github.com/grep-rohan/grep-rohan/blob/main/resume.pdf)
 - 💻 [LinkedIn](https://linkedin.com/in/rohansharma95)  
-- 📧 Reach me at: irohansharma95@gmail.com
+- 📧 irohansharma95@gmail.com
