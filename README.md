@@ -1,7 +1,5 @@
 ![Header](./header.png)
 
-# Hi there, I'm Rohan 👋
-
 ## About Me
 
 - 🚀 **Software Engineer** with 5+ years of backend development experience
